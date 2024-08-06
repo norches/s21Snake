@@ -1,0 +1,19 @@
+table { border-collapse: collapse; margin: 20px 0 0 20px;}
+tr { width: '100%'; height: '100%'}
+td {width: 20px; height: 20px; border: 1px solid black;}
+* {padding: 0; margin: 0; box-sizing: border-box; }
+
+
+.snake-cell {
+    background-color: black;
+}
+.snake-head {
+    background-color: green;
+}
+
+.empty-cell {
+    background-color: white;
+}
+.food-cell {
+    background-color: red;
+}
